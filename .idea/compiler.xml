@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for GWTP Samples - Basic" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="gwtp.debug" value="" />
+        <option name="gwtp.module" value="com.gwtplatform.samples.basic.Gwtpsample" />
+        <module name="gwtp-sample-basic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gwtp-sample-basic" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gwtp-sample-basic" options="-Agwtp.module=com.gwtplatform.samples.basic.Gwtpsample -Agwtp.debug" />
+    </option>
+  </component>
+</project>

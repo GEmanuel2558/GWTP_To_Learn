@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gwtp-sample-basic:war exploded">
+    <output-path>$PROJECT_DIR$/target/gwtp-sample-basic-2.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>gwtp-sample-basic</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gwtp-sample-basic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
+          <element id="library" level="project" name="Maven: com.google.inject:guice:4.1.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-dispatch-common-shared/2.0-SNAPSHOT/gwtp-dispatch-common-shared-2.0-20170120.034604-35.jar" output-file-name="gwtp-dispatch-common-shared-2.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-dispatch-rpc-shared/2.0-SNAPSHOT/gwtp-dispatch-rpc-shared-2.0-20170120.034609-35.jar" output-file-name="gwtp-dispatch-rpc-shared-2.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-dispatch-rpc-server-guice/2.0-SNAPSHOT/gwtp-dispatch-rpc-server-guice-2.0-20170120.034707-26.jar" output-file-name="gwtp-dispatch-rpc-server-guice-2.0-SNAPSHOT.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-dispatch-rpc-server/2.0-SNAPSHOT/gwtp-dispatch-rpc-server-2.0-20170120.034625-33.jar" output-file-name="gwtp-dispatch-rpc-server-2.0-SNAPSHOT.jar" />
+          <element id="library" level="project" name="Maven: com.google.gwt:gwt-servlet:2.8.2" />
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.78" />
+          <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-servlet:4.1.0" />
+          <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-assistedinject:4.1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/gwtp-sample-basic-2.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="gwtp-sample-basic/web/Web" />
+      <element id="gwt-compiler-output" facet="gwtp-sample-basic/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

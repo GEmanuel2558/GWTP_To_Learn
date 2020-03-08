@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.gwtplatform:gwtp-mvp-client:2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-mvp-client/2.0-SNAPSHOT/gwtp-mvp-client-2.0-20170120.034639-26.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-mvp-client/2.0-SNAPSHOT/gwtp-mvp-client-2.0-20170120.034639-26-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gwtplatform/gwtp-mvp-client/2.0-SNAPSHOT/gwtp-mvp-client-2.0-20170120.034639-26-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
